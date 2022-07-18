@@ -1,0 +1,107 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"core/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 489,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 500,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"core/libZXing.so.1.4.0",
+				"core/libZXing.so.1"
+			],
+			"targetId" : "ZXing::@57760688d1f824db5d9c",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"core/libZXing.so"
+			],
+			"targetId" : "ZXing::@57760688d1f824db5d9c",
+			"targetIndex" : 0,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/ZXing",
+			"paths" : 
+			[
+				"core/src/BarcodeFormat.h",
+				"core/src/BitHacks.h",
+				"core/src/ByteArray.h",
+				"core/src/CharacterSet.h",
+				"core/src/Flags.h",
+				"core/src/GTIN.h",
+				"core/src/TextUtfEncoding.h",
+				"core/src/ZXAlgorithms.h",
+				"core/src/ZXConfig.h",
+				"core/src/Content.h",
+				"core/src/DecodeHints.h",
+				"core/src/Error.h",
+				"core/src/ImageView.h",
+				"core/src/Point.h",
+				"core/src/Quadrilateral.h",
+				"core/src/ReadBarcode.h",
+				"core/src/Result.h",
+				"core/src/StructuredAppend.h",
+				"core/src/BitMatrix.h",
+				"core/src/BitMatrixIO.h",
+				"core/src/Matrix.h",
+				"core/src/MultiFormatWriter.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include/ZXing",
+			"paths" : 
+			[
+				"cmake-build-debug/core/ZXVersion.h"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "core",
+		"source" : "core"
+	}
+}

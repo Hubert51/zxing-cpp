@@ -1,0 +1,22 @@
+/snap/clion/198/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/198/bin/ninja/linux/ninja -G Ninja -S /home/gengr/zxing-cpp-master -B /home/gengr/zxing-cpp-master/cmake-build-debug
+-- Checking for module 'stb'
+--   No package 'stb' found
+-- Could NOT find Qt5Multimedia (missing: Qt5Multimedia_DIR)
+CMake Warning at example/CMakeLists.txt:26 (find_package):
+  Found package configuration file:
+
+    /usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake
+
+  but it set Qt5_FOUND to FALSE so package "Qt5" is considered to be NOT
+  FOUND.  Reason given by package:
+
+  Failed to find Qt5 component "Multimedia" config file at
+  "/usr/lib/x86_64-linux-gnu/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake"
+
+  
+
+
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/gengr/zxing-cpp-master/cmake-build-debug

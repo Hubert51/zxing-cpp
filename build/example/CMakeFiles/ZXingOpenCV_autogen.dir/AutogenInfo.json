@@ -1,0 +1,69 @@
+{
+	"BUILD_DIR" : "/home/gengr/zxing-cpp-master/build/example/ZXingOpenCV_autogen",
+	"CMAKE_BINARY_DIR" : "/home/gengr/zxing-cpp-master/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/gengr/zxing-cpp-master/build/example",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/gengr/zxing-cpp-master/example",
+	"CMAKE_EXECUTABLE" : "/usr/local/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/gengr/zxing-cpp-master",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/gengr/zxing-cpp-master/example/ZXingOpenCV.h",
+			"Mu",
+			"EWIEGA46WW/moc_ZXingOpenCV.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/gengr/zxing-cpp-master/build/example/ZXingOpenCV_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/gengr/zxing-cpp-master/build/example/ZXingOpenCV_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/gengr/zxing-cpp-master/core/src",
+		"/usr/include/opencv",
+		"/usr/include",
+		"/usr/include/c++/7",
+		"/usr/include/x86_64-linux-gnu/c++/7",
+		"/usr/include/c++/7/backward",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed",
+		"/usr/include/x86_64-linux-gnu"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/local/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/gengr/zxing-cpp-master/build/example/ZXingOpenCV_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/gengr/zxing-cpp-master/build/example/CMakeFiles/ZXingOpenCV_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/qt5/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 9,
+	"SETTINGS_FILE" : "/home/gengr/zxing-cpp-master/build/example/CMakeFiles/ZXingOpenCV_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[ "/home/gengr/zxing-cpp-master/example/ZXingOpenCV.cpp", "Mu" ]
+	],
+	"VERBOSITY" : 0
+}

@@ -1,0 +1,131 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-e85feeff59be1612b64b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "core",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-core-Debug-f96c054ec27828d71322.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "core",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "example",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-example-Debug-0d5d8ed6ca799d5b4951.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "ZXing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "ZXing::@57760688d1f824db5d9c",
+					"jsonFile" : "target-ZXing-Debug-20119d8fb184182178b8.json",
+					"name" : "ZXing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZXingOpenCV::@70983d692f648185febe",
+					"jsonFile" : "target-ZXingOpenCV-Debug-6cefa61c03c2ba332c69.json",
+					"name" : "ZXingOpenCV",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZXingOpenCV_autogen::@70983d692f648185febe",
+					"jsonFile" : "target-ZXingOpenCV_autogen-Debug-39dd52a5a16036fad906.json",
+					"name" : "ZXingOpenCV_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZXingReader::@70983d692f648185febe",
+					"jsonFile" : "target-ZXingReader-Debug-109c606682e793b9ec83.json",
+					"name" : "ZXingReader",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ZXingWriter::@70983d692f648185febe",
+					"jsonFile" : "target-ZXingWriter-Debug-b50138941f4231d49d1c.json",
+					"name" : "ZXingWriter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gengr/zxing-cpp-master/cmake-build-debug",
+		"source" : "/home/gengr/zxing-cpp-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
